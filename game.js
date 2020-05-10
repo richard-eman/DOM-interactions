@@ -24,7 +24,7 @@ function makeGreen (evt) {
 
 function makeBlue (evt) {
   evt.preventDefault()
-  evt.target.classList.toggle('blue')//is this correct?
+  evt.target.classList.toggle('blue')
   updateCounts()
 }
 
