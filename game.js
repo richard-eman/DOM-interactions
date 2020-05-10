@@ -21,7 +21,11 @@ function makeGreen (evt) {
   updateCounts()
 }
 
-// CREATE FUNCTION makeBlue HERE
+function makeBlue (evt) {
+  evt.preventDefault()
+  evt.target.classList.toggle('blue')//is this correct?
+  updateCounts()
+}
 
 // CREATE FUNCTION hide HERE
 
